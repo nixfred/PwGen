@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="720" viewBox="0 0 1440 720" role="img" aria-labelledby="title desc">
+  <title id="title">PwGen</title>
+  <desc id="desc">A native SwiftUI password generator combines selected character sets into a local random password and copies it to the macOS clipboard.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08111e"/><stop offset="1" stop-color="#090814"/></linearGradient>
+    <linearGradient id="key" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#2b8cff"/><stop offset=".52" stop-color="#7c68ff"/><stop offset="1" stop-color="#d16fff"/></linearGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M46 0H0V46" fill="none" stroke="#559cff" stroke-opacity=".055"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1440" height="720" fill="url(#bg)"/><rect width="1440" height="720" fill="url(#grid)"/>
+  <text x="720" y="116" text-anchor="middle" fill="url(#key)" font-family="sans-serif" font-size="78" font-weight="800" letter-spacing="7" filter="url(#glow)">PwGen</text>
+  <text x="720" y="165" text-anchor="middle" fill="#9baec8" font-family="monospace" font-size="18" letter-spacing="4">LOCAL SWIFTUI PASSWORD GENERATION</text>
+  <g font-family="monospace">
+    <g transform="translate(98 265)"><rect width="360" height="260" rx="24" fill="#0c1827" stroke="#398fff" stroke-width="3"/><text x="32" y="54" fill="#70b5ff" font-size="17">LENGTH</text><path d="M34 91h292" stroke="#344e68" stroke-width="8" stroke-linecap="round"/><circle cx="174" cy="91" r="15" fill="#398fff"/><text x="306" y="76" fill="#9ecaff" font-size="15">16</text><text x="32" y="145" fill="#a7b7ca" font-size="16">✓ CAPITALS</text><text x="32" y="181" fill="#a7b7ca" font-size="16">✓ NUMBERS</text><text x="32" y="217" fill="#a7b7ca" font-size="16">✓ SPECIAL</text></g>
+    <path d="M458 395h190" stroke="url(#key)" stroke-width="5" stroke-dasharray="12 9" filter="url(#glow)"/>
+    <g transform="translate(648 285)"><circle cx="92" cy="110" r="82" fill="#111225" stroke="#8d6fff" stroke-width="3"/><path d="M92 51a43 43 0 00-43 43v30h86V94a43 43 0 00-43-43zm0 23a20 20 0 0120 20v10H72V94a20 20 0 0120-20z" fill="url(#key)"/><circle cx="92" cy="134" r="12" fill="#d8caff"/><path d="M92 145v25" stroke="#d8caff" stroke-width="8"/><text x="92" y="220" text-anchor="middle" fill="#ae9bdd" font-size="15">SYSTEM RNG</text></g>
+    <path d="M832 395h150" stroke="url(#key)" stroke-width="5" stroke-dasharray="12 9" filter="url(#glow)"/>
+    <g transform="translate(982 265)"><rect width="360" height="260" rx="24" fill="#11101f" stroke="#c66fff" stroke-width="3"/><text x="180" y="69" text-anchor="middle" fill="#e0a4ff" font-size="22">qA7!kP2#vN9@xR4$</text><rect x="70" y="111" width="220" height="74" rx="12" fill="#2d1740" stroke="#c66fff"/><text x="180" y="156" text-anchor="middle" fill="#f3d8ff" font-size="18">GENERATE</text><text x="180" y="222" text-anchor="middle" fill="#8f7a99" font-size="14">copied to pasteboard</text></g>
+  </g>
+  <rect x="382" y="592" width="676" height="62" rx="10" fill="#11172a" stroke="#686fff" stroke-opacity=".8"/>
+  <text x="720" y="630" text-anchor="middle" fill="#afbdff" font-family="monospace" font-size="17" letter-spacing="2">CHOOSE · GENERATE LOCALLY · COPY</text>
+</svg>
